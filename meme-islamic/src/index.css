@@ -1,0 +1,171 @@
+/* Tailwind CSS included */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .header {
+  background-color: #6200ea; 
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-left: 15px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+  .footer {
+    background-color: gainsboro;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+
+.footer p {
+  margin: 0;
+  color: black;
+  font-size: 1rem;
+}
+
+.footer p:hover {
+  color: #a80a0a;
+}
+
+
+
+
+
+
+
+/* General styling for the meme card container */
+.meme-card {
+    border: 1px solid #ddd;         
+    border-radius: 8px;            
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;                  
+    margin: 20px;                 
+    text-align: center;            
+    background-color: #ffffff;     
+  }
+  
+  /* Styling for the title */
+  .meme-card h2 {
+    font-size: 1.8rem;              
+    margin: 0 0 10px;              
+    color: #333;                    
+  }
+  
+  /* Styling for the image */
+  .meme-card img {
+    max-width: 100%;               
+    height: auto;                
+    border-radius: 8px;           
+  }
+  
+  /* Styling for the description */
+  .meme-card p {
+    font-size: 1rem;               
+    color: #666;                   
+    margin-top: 10px;              
+  }
+  
+
+
+
+
+
+
+.meme-item {
+    border: 1px solid #ddd;           
+    border-radius: 8px;             
+    overflow: hidden;               
+    text-align: center;              
+    margin: 20px;                     
+    transition: transform 0.2s;      
+  }
+  
+  
+  .meme-item:hover {
+    transform: scale(1.05);          
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .meme-item img {
+    width: 50%;                    
+    height: 50%;                   
+    border-bottom: 1px solid #ddd;  
+  }
+  
+  /* Styling for the title */
+  .meme-item h2 {
+    font-size: 1.5rem;              
+    margin: 10px 0;                  
+    color: #333;                     
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .home-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .form-container input {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+
+  .generate-button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+.generate-button:hover {
+  background-color: #3700b3;
+}
+  
+
+
+  
+
+ 
